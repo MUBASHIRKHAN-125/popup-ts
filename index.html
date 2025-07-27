@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup-with-typescript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containerPopup">
+        <div id="btn">
+            <button onclick="popupCall()" type="button">Submit</button>
+        </div>
+        <div class="popup" id="popup">
+            <img src="./image/logo.png">
+            <h1>Thank You!</h1>
+            <p>you details has been successfully <br> submitted.Thanks!</p>
+            <button onclick="removePopup()">OK</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="./dist/popup.js"></script>
+</body>
+
+</html>
